@@ -16,18 +16,19 @@ class EditViewBody extends StatelessWidget {
           ),
           CostumeAppBar(
             title: 'Edit Note',
-            
             icon: Icons.check,
           ),
-           SizedBox(
+          SizedBox(
             height: 50,
           ),
           CustomTextField(hint: 'Title'),
-           SizedBox(
+          SizedBox(
             height: 16,
           ),
-          CustomTextField(hint: 'Content',
-          maxlines: 5,)
+          CustomTextField(
+            hint: 'Content',
+            maxlines: 5,
+          )
         ],
       ),
     );
